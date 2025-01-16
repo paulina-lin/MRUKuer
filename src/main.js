@@ -1,16 +1,7 @@
-import * as THREE from 'three';
+document.getElementById('arButton').addEventListener('click', function() {
+    window.location.href = 'https://example.com/ar'; // Ersetzen Sie dies durch Ihre AR-Website
+});
 
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
-
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
-
-camera.position.z = 5;
-
-function animate() {
-    
-	renderer.render( scene, camera );
-}
-renderer.setAnimationLoop( animate );
+document.getElementById('vrButton').addEventListener('click', function() {
+    window.location.href = 'https://example.com/vr'; // Ersetzen Sie dies durch Ihre VR-Website
+});
