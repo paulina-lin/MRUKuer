@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="de">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>AR und VR - Giraffe</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AR und VR - Giraffe</title>
+	<link rel="stylesheet" href="style.css">
+</head>
 	<body>
-        <div class="button-container">
-			<button id="arButton">AR</button>
-			<button id="vrButton">VR</button>
+		<div class="container">
+			<h1>Welcome to Zoolearn</h1>
+			<div class="button-container">
+				<button id="arButton">AR</button>
+				<button id="vrButton">VR</button>
+			</div>
+			<div class="info-container">
+				<button id="infoButton" class="info-button">?</button>
+				<div id="infoText" class="info-text">
+					VR: Lebensraum der Giraffe<br>
+					AR: Größenvergleich der Giraffe
+				</div>
+			</div>
 		</div>
-        <script src="...\src\main.js" type="module"></script>
+		<script src="main.js"></script>
 	</body>
 </html>
