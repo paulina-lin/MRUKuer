@@ -16,7 +16,7 @@ body {
     padding: 30px;
     border: 2px solid #8a5c2a;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8); ;
+    background-color: rgba(255, 255, 255, 0.8); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -70,10 +70,11 @@ button:hover {
 .info-text {
     display: none; /* standardmäßig verborgen */
     position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     top: 50px; /* Abstand zum Button */
     left: -50px;
-    background-color: white;
-    border: 1px solid #4CAF50;
+    background-color: white ;
+    border: 1px solid #8a5c2a;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
